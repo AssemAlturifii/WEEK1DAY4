@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <TextView
+       android:gravity="center"
+       android:id="@+id/tvTwo"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/assem_alturifi"
+       android:layout_marginBottom="20dp"
+       android:textSize="45dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tvThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_york_ny"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/holo_red_dark"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/Four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/education_nyit_computer_science"
+            android:layout_marginBottom="25dp"
+            android:textColor="@android:color/holo_green_light"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+   <TextView
+       android:gravity="center"
+       android:id="@+id/five"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/hobbies_working_out_music_traveling_and_reading"
+       android:layout_marginBottom="20dp"
+       android:textSize="20dp"
+       android:fontFamily="@android:lobster"
+       android:textStyle="italic" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/profilepicture"
+           android:src="@drawable/assem"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>
+

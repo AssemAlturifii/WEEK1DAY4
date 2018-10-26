@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hobbies_working_out_music_traveling_and_reading">Hobbies: Working Out, Music, Traveling and Reading</string>
+    <string name="education_nyit_computer_science">Education: NYIT-Computer Science</string>
+    <string name="assem_alturifi">Assem Alturifi</string>
+    <string name="new_york_ny">Location:New York, NY:</string>
+    <string name="profilepicture">profilePicture</string>
+</resources>
